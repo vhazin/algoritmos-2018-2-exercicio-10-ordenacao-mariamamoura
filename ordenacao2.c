@@ -21,12 +21,12 @@ void trocar(int *num1, int *num2){
 int main(){
     int num_criancas;
     scanf("%d", &num_criancas);
+    char nome_criancas[num_criancas], comportamento[3];
     char lista[num_criancas];
 
     for (int i=0; i< num_criancas; i++){
-        scanf("%s %s", &lista[i]);
-        printf(lista);
-    }
+        scanf("%s %s", &comportamento[i], &nome_criancas[i]);
+    } printf("%s %s\n", comportamento, nome_criancas);
 
     return 0;
 }

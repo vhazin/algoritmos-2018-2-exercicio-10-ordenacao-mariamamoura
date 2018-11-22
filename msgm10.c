@@ -18,7 +18,7 @@ void sortNomes(criancas x[], int num_criancas){
             }
     }
     for (int i=0; i<num_criancas; i++)
-        printf("\n%s", x[i].nome);
+        printf("%s\n", x[i].nome);
 }
 
 void imprimir(criancas x[], int num_criancas){
@@ -29,7 +29,7 @@ void imprimir(criancas x[], int num_criancas){
             bom++;
         else
             mal++;
-    } printf("\nSe comportaram: %d | Nao se comportaram: %d\n", bom, mal);
+    } printf("Se comportaram: %d | Nao se comportaram: %d\n", bom, mal);
 }
 int main(){
     int num_criancas;
@@ -43,4 +43,4 @@ int main(){
     imprimir(x, num_criancas);
 
     return 0;
-    }
+}
